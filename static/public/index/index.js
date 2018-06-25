@@ -5,7 +5,7 @@ define(function(require, exports, module) {
     function demoFn() {
 
         var myIsDemoConponents = require('@components/myIsDemoConponents/myIsDemoConponents.js');
-        var template = require('/public/lib/art-template/art-template.js');
+        var template = require('@lib/art-template/art-template.js');
 
         $('#app').html(template.render(myIsDemoConponents, {
             data: 12345678

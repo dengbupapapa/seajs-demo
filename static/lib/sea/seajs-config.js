@@ -13,11 +13,9 @@
 
         // 路径配置
         paths: {
-            '@components': '/public/components',
-            '@lib': '/public/lib',
-            '@static': '/public/static',
-            '@style': '/public/static/style',
-            '@js': '/public/static/javascript'
+            '@components': '/static/components',
+            '@lib': '/static/lib',
+            '@public': '/static/public'
         }
     });
 }();
