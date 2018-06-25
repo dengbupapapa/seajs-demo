@@ -25,6 +25,7 @@
 
 
 ### 注意事项
+
 1. seajs中别名使用
 
     '@components': '/public/components',
